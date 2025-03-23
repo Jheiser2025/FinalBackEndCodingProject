@@ -1,0 +1,12 @@
+spring:
+   datasource:
+      username: travel_agency
+      password: travel_agency
+      url: jdbc:mysql://localhost:3306/travel_agency
+      
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+    
+ 
